@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        #t0{
+            position: fixed;
+        }
+        #t1{
+            margin-top: 30px;
+            margin-right: -130px;
+        }
+        body {
+           background-image: url("./sc1.jpg");
+           background-position:0px 100px;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size: cover;
+           -webkit-background-size: cover;
+           -o-background-size: cover;
+           -moz-background-size: cover;
+           -ms-background-size: cover;
+        }
+        .card {
+            margin-top: 160px;
+            margin-left: 165px;
+            background-color: rgba(246,246,246,0.7);
+            /*border: 1px solid transparent;
+            /*border-radius: 4px;*/
+            -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+            position: fixed;
+        }
+        .card-body {
+            width: 800px;
+            height: 350px;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            background-color:#5BB3FF 
+        }
+        .footer1{
+            color:white;
+        }
+        .nav > li > a {
+            font-size: 25px;
+            line-height: 60px;
+        }
+        #button1{
+            width:150px;
+        }
+        #active{
+            color:#1492FF;
+        }
+        #stop{
+            color:#908E8E;
+        }
+        
+    </style>
+  </head>
+  <body>
+    <div class="container" id="t0">
+        <div class="media">
+            <a class="media-left" href="#">
+                <img src="./logo.png" alt="" width=300px>
+            </a>
+            <div class="media-body" id="t1">
+                <h4 class="text-right text-secondary">浙江博士后服务平台</h4> 
+            </div>
+        </div>
+    </div>
+    <div class="container" >
+        <div class="card">
+            <ul class="nav nav-tabs nav-justified">
+                <li class="nav-item"><a href="./index.html" id="stop">个人用户</a></li>
+                <li class="nav-item"><a href="./2_login.html" id="active">企业用户</a></li>
+                <li class="nav-item"><a href="./3_login.html" id="stop">政府用户</a></li>
+            </ul>
+            <div class="card-body">
+                <br>
+                <h5 class="text-center">通过政务平台网登陆</h5><br>
+                    <form>
+                        <center>
+                        <div class="row form-group">
+                            <div>
+                                <label class="text-center form-inline" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp用户名：
+                                <input type="text" class="form-control" /></label>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <div>
+                                <label class="form-inline" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp密&nbsp&nbsp&nbsp&nbsp码：
+                                <input type="text" class="form-control" /></label>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="button1" >登陆</button>
+                        </center>
+                    </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="text-center footer1" >|
+                <a style="color:white;" href="/pages/6">关于我们</a>
+                |
+                <a style="color:white;" href="/pages/7">地理位置</a>
+                |
+                <a style="color:white;" href="/pages/8">免责条款	</a>
+                |
+                <a style="color:white;" href="/pages/9">联系我们</a>
+                |</div>
+            <div class="text-center">浙江省专家与留学人员服务中心 版权所有</div>
+            <div class="text-center">Copyright &copy; 2019 zjhwrc.com All Rights Reserved.</div>
+            <div class="text-center"><a target="_blank" style="color:#ccc;" href="http://beian.miit.gov.cn">浙ICP备13002660号-1</a></div>
+        </div>
+    </footer>
+
+    
+  </body>
+</html>
