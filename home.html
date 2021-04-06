@@ -32,15 +32,16 @@
                 margin-top: 25px;
                 position: relative;
             }
-            .nav>ul>li{
-                
-            }
             #active{
                 color:#1492FF;
             }
             #stop{
                 color:#000000;
             }
+            #upline{
+                font-size: 14px;
+                width: 30px;
+            }  
             #dl1{
                 background-color:  #1492FF;
             }
@@ -54,15 +55,28 @@
                 font-size: smaller;
                 color: #908E8E;
             }
+            #zpxx{
+                position: relative;
+            }
             .footer{
-                 position: fixed;
+                 position: relative;
                  bottom: 0;
                  width: 100%;
                  height: 100px;
-                 background-color:#5BB3FF;
+                 background-color:#0E7DDD;
             }
             .footer1{
                  color:white;
+            }
+            .footer2{
+                 position: relative;
+                 bottom: 0;
+                 width: 100%;
+                 height: 40px;
+                 background-color:#72BEFF;
+            }
+            .footer3{
+                color:#707070;
             }
         </style>
     </head>
@@ -93,17 +107,23 @@
         </div>
         <div class="container">
             <h2 style="color: #707070;">|</h2>
-            <h2 style="margin-top: -43px;">&nbsp&nbsp&nbsp&nbsp公告</h2><br>
+            <h2 style="margin-top: -43px;">&nbsp&nbsp&nbsp&nbsp公告</h2>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-sm-4"><a href="#">浙江省博士后工作重要文件梳理</a></div>
+                <div class="col-sm-4">
+                    <div class="row"><p class="bg-primary text-white" id="upline">置顶</p>
+                        <a href="#"><p class="text-left text-dark">浙江省博士后工作重要文件梳理</p></a></div>
+                </div>
                 <div class="col-sm-2"><p class="text-left" id="time">2020-11-1</p></div>
-                <div class="col-sm-4"><a href="#">浙江省博士后工作重要文件梳理</a></div>
+                <div class="col-sm-4"><a href="#"><p class="text-left text-dark">浙江省博士后工作重要文件梳理</p></a></div>
                 <div class="col-sm-2"><p class="text-left" id="time">2020-11-1</p></div>
             </div>
             <div class="row">
-                <div class="col-sm-4"><p class="text-left">博士后工作指南</p></div>
+                <div class="col-sm-4">
+                    <div class="row"><p class="bg-primary text-white" id="upline">置顶</p>
+                        <a href="#"><p class="text-left text-dark">博士后工作指南</p></a></div>
+                    </div>
                 <div class="col-sm-2"><p class="text-left" id="time">2020-11-1</p></div>
                 <div class="col-sm-4"><p class="text-left">博士后工作指南</p></div>
                 <div class="col-sm-2"><p class="text-left" id="time">2020-11-1</p></div>
@@ -129,18 +149,18 @@
             <div style="border-right:1px dashed #ccc; height:230px; width:1px; margin-top:-250px; margin-left: 510px;"></div>
         </div>
         <div class="container">
-            <div style="border-top:1px dashed #cccccc;height: 1px;overflow:hidden;margin-top: 20px;"></div>
+            <div style="border-top:1px dashed #cccccc;height: 1px;overflow:auto;margin-top: 20px;"></div>
         </div>
         <div class="container">
             <h2 style="color: #707070;margin-top: 15px;">|</h2>
-            <h2 style="margin-top: -45px;">&nbsp&nbsp&nbsp&nbsp招聘信息</h2><br>
+            <h2 style="margin-top: -45px;">&nbsp&nbsp&nbsp&nbsp招聘信息</h2>
         </div>
-        <div class="container">
+        <div class="container" id="zpxx">
             <div class="row">
-                <div class="col-sm-3"><p class="text-center">招收单位</p></div>
-                <div class="col-sm-4"><p class="text-center">招收博士后项目</p></div>
-                <div class="col-sm-3"><p class="text-center">所需人员专业方向</p></div>
-                <div class="col-sm-2"><p class="text-center">发布日期</p></div>
+                <div class="col-sm-3"><p class="text-center"><strong>招收单位</strong></p></div>
+                <div class="col-sm-4"><p class="text-center"><strong>招收博士后项目</strong></p></div>
+                <div class="col-sm-3"><p class="text-center"><strong>所需人员专业方向</strong></p></div>
+                <div class="col-sm-2"><p class="text-center"><strong>发布日期</strong></p></div>
             </div>
             <div class="row">
                 <div class="col-sm-3"><p class="text-left">杭州宏华数码科技股份有限公司</p></div>
@@ -154,11 +174,39 @@
                 <div class="col-sm-3"><p class="text-center">数码织印一体技术</p></div>
                 <div class="col-sm-2"><p class="text-center">2021-02-18</p></div>
             </div>
-            
+            <div class="row">
+                <div class="col-sm-3"><p class="text-left">杭州宏华数码科技股份有限公司</p></div>
+                <div class="col-sm-4"><p class="text-left">数码纺织“织印一体化”关键技术研究与产品开发</p></div>
+                <div class="col-sm-3"><p class="text-center">数码织印一体技术</p></div>
+                <div class="col-sm-2"><p class="text-center">2021-02-18</p></div>
+            </div>
         </div>
         <div class="container">
-            <div style="border-top:1px dashed #cccccc;height: 1px;overflow:hidden;margin-top: 0px;"></div>
+            <div style="border-top:1px dashed #cccccc;height: 1px;overflow:auto;margin-top: 0px;"></div>
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="#"><img src="./1.jpg" alt=""></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#"><img src="./2.jpg" alt=""></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#"><img src="./3.jpg" alt=""></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#"><img src="./4.jpg" alt=""></a>
+                </div>
+            </div><br>
+        </div>
+        <footer class="footer2">
+            <div class="container">
+                <div class="text-center footer3">
+                    <p><small>浙江省人民政府 · 教育部 · 工业和信息化部 · 浙江省教育厅 · 省国防科工办 · 高校科研经费使用信息公开</small></p>
+                </div>
+            </div>
+        </footer>
         <footer class="footer">
             <div class="container">
                 <div class="text-center footer1" >|
